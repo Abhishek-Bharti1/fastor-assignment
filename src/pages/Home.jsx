@@ -71,14 +71,9 @@ const Home = () => {
             </span>
           </div>
           <div className="mini_cards">
-            <MiniCard />
-            <MiniCard />
-            <MiniCard />
-            <MiniCard />
-            <MiniCard />
-            <MiniCard />
-            <MiniCard />
-            <MiniCard />
+          {
+          resData?.map((prod)=><MiniCard prod = {prod}/>)
+         } 
           </div>
         </div>
         <SliderComponent />

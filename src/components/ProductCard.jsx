@@ -14,6 +14,7 @@ border-radius: 5px;
 overflow: hidden;
 display: flex;
 align-items: center;
+cursor: pointer;
 & .left{
   flex: 1;
   overflow: hidden;
